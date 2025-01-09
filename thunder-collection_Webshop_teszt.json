@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Webshop_teszt",
+    "collectionId": "1d1d11cb-7066-4f0b-8b09-757754f6a3b7",
+    "dateExported": "2025-01-09T09:30:45.416Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "216bedb5-8ca4-481b-ac70-585e05f98254",
+            "colId": "1d1d11cb-7066-4f0b-8b09-757754f6a3b7",
+            "containerId": "",
+            "name": "get thing",
+            "url": "http://127.0.0.1:8000/api/products",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-01-09T08:07:50.003Z",
+            "modified": "2025-01-09T08:07:53.392Z",
+            "headers": []
+        },
+        {
+            "_id": "abbcc325-553e-4d9b-a0de-9ceb4922f5b3",
+            "colId": "1d1d11cb-7066-4f0b-8b09-757754f6a3b7",
+            "containerId": "",
+            "name": "get thing by id",
+            "url": "http://127.0.0.1:8000/api/products/3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-01-09T08:54:17.630Z",
+            "modified": "2025-01-09T09:09:41.073Z",
+            "headers": []
+        },
+        {
+            "_id": "9c406d60-405c-4d94-9702-5fbe60a4895e",
+            "colId": "1d1d11cb-7066-4f0b-8b09-757754f6a3b7",
+            "containerId": "",
+            "name": "put something",
+            "url": "http://127.0.0.1:8000/api/products/3",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-01-09T09:20:15.952Z",
+            "modified": "2025-01-09T09:30:11.277Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"stock\":30\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "wYEb3KIeq4SobNObhMzNHCodAlnm5AXL5itSQLiC940cWrYNYaW4fiJUMSrYFcRDRTiuXdQ7SSmFGL3tnOcLng"
+}
