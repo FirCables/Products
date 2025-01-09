@@ -25,9 +25,12 @@ class DatabaseSeeder extends Seeder
         $Categories = [
             [
                 "name"=> "Liszt",
-                 "categoryName"=> "Élelmiszer",
-                
+                "categoryName"=> "Élelmiszer",
             ],
+            [
+                "name"=> "Rizs",
+                "categoryName"=> "Élelmiszer",
+            ]
 
             ]; 
         $Products = [

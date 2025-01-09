@@ -53,7 +53,7 @@ class ProductController extends Controller
         }
         $product = Product::find($id);
         if (!$product) {
-            return response()->json(['message' => 'car not found'], 404);
+            return response()->json(['message' => 'product not found'], 404);
         }
         $product->update($request->all());
         return response()->json($product);
